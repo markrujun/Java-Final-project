@@ -1,0 +1,13 @@
+
+#pane{
+    -fx-background-image: url("backgroundIMG.png");
+    -fx-background-repeat: stretch;
+    -fx-pref-width: 1000;
+    -fx-pref-height: 582;
+}
+#gridPane{
+    -fx-background-image: url("select_bgm.png");
+    -fx-background-repeat: stretch;
+    -fx-pref-width: 1000;
+    -fx-pref-height: 582;
+}
