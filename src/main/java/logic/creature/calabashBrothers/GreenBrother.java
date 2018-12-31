@@ -12,7 +12,7 @@ public class GreenBrother extends  CalabashBrother {
         strength = 300;
         tempHealth = maxHealth;
         creatureImage = new CreatureImage();
-        creatureImage.setImage("/select_green.png");
+        creatureImage.setImage("/select_green.png","/green_left.png","/green_right.png","/green_right.png");
     }
     public static GreenBrother getInstance() {
         if(obj == null) {

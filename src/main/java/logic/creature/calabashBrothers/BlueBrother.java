@@ -12,7 +12,7 @@ public class BlueBrother extends  CalabashBrother {
         strength = 300;
         tempHealth = maxHealth;
         creatureImage = new CreatureImage();
-        creatureImage.setImage("/select_blue.png");
+        creatureImage.setImage("/select_blue.png","/blue_left.png","/blue_right.png","/blue_right.png");
     }
     public static BlueBrother getInstance() {
         if(obj == null) {

@@ -16,7 +16,6 @@ import java.util.Stack;
 
 public class BattleClient {
     private static BattleClient  obj;
-    private final Battlefield battlefield = new Battlefield();
     private final Pane battlePane;
     public EvilLeague evilLeague;
     public CalabashBrother player;
@@ -109,8 +108,8 @@ public class BattleClient {
                     Platform.runLater(() -> {
                         Image end_image = new Image("lose.png");
                         ImageView end = new ImageView(end_image);
-                        end.setLayoutX(APP_Config.SCENE_WIDTH/2-end_image.getWidth()/2 );
-                        end.setLayoutY(APP_Config.SCENE_HEIGHT/2 - end_image.getHeight()/2);
+                        end.setLayoutX((APP_Config.SCENE_WIDTH/2.0)-end_image.getWidth()/2 );
+                        end.setLayoutY((APP_Config.SCENE_HEIGHT/2.0) - end_image.getHeight()/2);
                         battlePane.getChildren().add(end);
                     });
                 }
@@ -118,8 +117,8 @@ public class BattleClient {
                     Platform.runLater(() -> {
                         Image end_image = new Image("win.png");
                         ImageView end = new ImageView(end_image);
-                        end.setLayoutX(APP_Config.SCENE_WIDTH/2-end_image.getWidth()/2 );
-                        end.setLayoutY(APP_Config.SCENE_HEIGHT/2 - end_image.getHeight()/2);
+                        end.setLayoutX((APP_Config.SCENE_WIDTH / 2.0) - (end_image.getWidth() / 2));
+                        end.setLayoutY((APP_Config.SCENE_HEIGHT/2.0) - end_image.getHeight()/2);
                         battlePane.getChildren().add(end);
                     });
                 }
@@ -133,7 +132,6 @@ public class BattleClient {
     }
     public void drawEvilCreature() {
         Platform.runLater(() -> {
-            synchronized (battlefield) {
                 for (EvilCreature evilCreature: evilLeague.currentEvilSet
                 ) {
                     evilCreature.creatureImage.setCurrentImage(evilCreature.creatureImage.fightImage);
@@ -141,88 +139,91 @@ public class BattleClient {
                     battlePane.getChildren().add(evilCreature.creatureImage.greenBloodImage);
                     battlePane.getChildren().add(evilCreature.creatureImage.currentImage);
                 }
-            }
         });
     }
     private void playerInit() {
         System.out.println("play init");
         player.creatureImage.setCurrentImage(player.creatureImage.fightImage);
         Platform.runLater(() -> {
-            synchronized (battlefield) {
                 battlePane.getChildren().add(player.creatureImage.redBloodImage);
                 battlePane.getChildren().add(player.creatureImage.greenBloodImage);
                 battlePane.getChildren().add(player.creatureImage.currentImage);
                 battlePane.requestFocus();
                 Stack<KeyCode> keyCodes = new Stack<>();
                 battlePane.setOnKeyPressed(event -> {
-                    KeyCode code = event.getCode();
-                    System.out.println(keyCodes.size());
-                    if (keyCodes.indexOf(code) < 0) {
-                        switch (code) {
-                            case RIGHT:
-                                if (keyCodes.indexOf(KeyCode.LEFT) >= 0) {
-                                    keyCodes.remove(KeyCode.LEFT);
-                                    keyCodes.push(KeyCode.RIGHT);
-                                } else
-                                    keyCodes.push(KeyCode.RIGHT);
-                                break;
-                            case LEFT:
-                                if (keyCodes.indexOf(KeyCode.RIGHT) >= 0) {
-                                    keyCodes.remove(KeyCode.RIGHT);
-                                    keyCodes.push(KeyCode.LEFT);
-                                } else
-                                    keyCodes.push(KeyCode.LEFT);
-                                break;
-                            case UP:
-                                if (keyCodes.indexOf(KeyCode.DOWN) >= 0) {
-                                    keyCodes.remove(KeyCode.DOWN);
-                                    keyCodes.push(KeyCode.UP);
-                                } else
-                                    keyCodes.push(KeyCode.UP);
-                                break;
-                            case DOWN:
-                                if (keyCodes.indexOf(KeyCode.UP) >= 0) {
-                                    keyCodes.remove(KeyCode.UP);
-                                    keyCodes.push(KeyCode.DOWN);
-                                } else
-                                    keyCodes.push(KeyCode.DOWN);
-                                break;
+                    if (!player.isDead()){
+                        KeyCode code = event.getCode();
+                        System.out.println(keyCodes.size());
+                        if (keyCodes.indexOf(code) < 0) {
+                            switch (code) {
+                                case RIGHT:
+                                    if (keyCodes.indexOf(KeyCode.LEFT) >= 0) {
+                                        keyCodes.remove(KeyCode.LEFT);
+                                        keyCodes.push(KeyCode.RIGHT);
+                                    } else
+                                        keyCodes.push(KeyCode.RIGHT);
+                                    break;
+                                case LEFT:
+                                    if (keyCodes.indexOf(KeyCode.RIGHT) >= 0) {
+                                        keyCodes.remove(KeyCode.RIGHT);
+                                        keyCodes.push(KeyCode.LEFT);
+                                    } else
+                                        keyCodes.push(KeyCode.LEFT);
+                                    break;
+                                case UP:
+                                    if (keyCodes.indexOf(KeyCode.DOWN) >= 0) {
+                                        keyCodes.remove(KeyCode.DOWN);
+                                        keyCodes.push(KeyCode.UP);
+                                    } else
+                                        keyCodes.push(KeyCode.UP);
+                                    break;
+                                case DOWN:
+                                    if (keyCodes.indexOf(KeyCode.UP) >= 0) {
+                                        keyCodes.remove(KeyCode.UP);
+                                        keyCodes.push(KeyCode.DOWN);
+                                    } else
+                                        keyCodes.push(KeyCode.DOWN);
+                                    break;
+                            }
+                        } else {
+                            keyCodes.remove(code);
+                            keyCodes.push(code);
                         }
-                    } else {
-                        keyCodes.remove(code);
-                        keyCodes.push(code);
-                    }
-                    try {
-                        System.out.println(Arrays.toString(keyCodes.toArray()));
-                        Thread.sleep(20);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    if (keyCodes.indexOf(KeyCode.LEFT) >= 0) {
-                        player.moveLeft();
-                    }
-                    if (keyCodes.indexOf(KeyCode.RIGHT) >= 0) {
-                        player.moveRight();
-                    }
-                    if (keyCodes.indexOf(KeyCode.UP) >= 0) {
-                        player.moveUp();
-                    }
-                    if (keyCodes.indexOf(KeyCode.DOWN) >= 0) {
-                        player.moveDown();
-                    }
+                        try {
+                            System.out.println(Arrays.toString(keyCodes.toArray()));
+                            Thread.sleep(20);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        if (keyCodes.indexOf(KeyCode.LEFT) >= 0) {
+                            player.moveLeft();
+                        }
+                        if (keyCodes.indexOf(KeyCode.RIGHT) >= 0) {
+                            player.moveRight();
+                        }
+                        if (keyCodes.indexOf(KeyCode.UP) >= 0) {
+                            player.moveUp();
+                        }
+                        if (keyCodes.indexOf(KeyCode.DOWN) >= 0) {
+                            player.moveDown();
+                        }
 
+                    }
                 });
                 battlePane.setOnKeyReleased(event -> {
-                    System.out.println(event);
-                    KeyCode code = event.getCode();
-                    keyCodes.remove(code);
-                    switch (code) {
-                        case X:
-                            player.attack();
-                            break;
+                    if (!player.isDead()) {
+                        {
+                            System.out.println(event);
+                            KeyCode code = event.getCode();
+                            keyCodes.remove(code);
+                            switch (code) {
+                                case X:
+                                    player.attack();
+                                    break;
+                            }
+                        }
                     }
                 });
-            }
         });
         player.move(50, 50);
         player.start();

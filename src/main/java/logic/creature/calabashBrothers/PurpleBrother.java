@@ -12,7 +12,7 @@ public class PurpleBrother extends  CalabashBrother{
         strength = 300;
         tempHealth = maxHealth;
         creatureImage = new CreatureImage();
-        creatureImage.setImage("/select_purple.png");
+        creatureImage.setImage("/select_purple.png","/purple_left.png","/purple_right.png","/purple_right.png");
     }
     public static PurpleBrother getInstance() {
         if(obj == null) {

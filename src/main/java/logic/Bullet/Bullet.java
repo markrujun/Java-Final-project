@@ -23,39 +23,32 @@ public class Bullet implements Runnable {
 
     void setDirection(boolean directionRight) {
         this.directionRight = directionRight;
-        synchronized (bulletImage) {
-            bulletImage.setCurrentImage(directionRight);
-        }
+        bulletImage.setCurrentImage(directionRight);
     }
 
-    protected void move(double x, double y) {
+    void move(double x, double y) {
         this.x = x;
         this.y = y;
-        synchronized (bulletImage) {
-            this.bulletImage.setX(x);
-            this.bulletImage.setY(y);
-        }
+        this.bulletImage.setX(x);
+        this.bulletImage.setY(y);
     }
     @Description(todo = "判断子弹是否击中目标")
     private void judge(double x, double y) {
         for (Creature target: targetList
              ) {
-            synchronized (target) {
-                if (target.creatureImage.currentImage.getImage() == null)continue;
-                double x1 = target.layoutX;
-                double y1 = target.layoutY;
-                double w1 = target.creatureImage.currentImage.getImage().getWidth();
-                double h1 = target.creatureImage.currentImage.getImage().getHeight();
-                System.out.println(x1 + "," + y1 + "," + w1 +  "," + h1);
-                if ((x > x1 - width) &&
-                        (x < x1+w1) &&
-                        (y > y1 - height) &&
-                        (y < y1 + h1)) {
-                    target.isAttack(damage);
-                    boom();
-                    isFlying = false;
-
-                }
+            if (target.creatureImage.currentImage.getImage() == null)continue;
+            double x1 = target.layoutX;
+            double y1 = target.layoutY;
+            double w1 = target.creatureImage.currentImage.getImage().getWidth();
+            double h1 = target.creatureImage.currentImage.getImage().getHeight();
+            System.out.println(x1 + "," + y1 + "," + w1 +  "," + h1);
+            if ((x > x1 - width) &&
+                    (x < x1+w1) &&
+                    (y > y1 - height) &&
+                    (y < y1 + h1)) {
+                target.isAttack(damage);
+                boom();
+                isFlying = false;
             }
         }
     }

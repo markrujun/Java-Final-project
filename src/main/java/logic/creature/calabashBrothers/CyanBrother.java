@@ -13,7 +13,7 @@ public class CyanBrother extends  CalabashBrother{
         strength = 300;
         tempHealth = maxHealth;
         creatureImage = new CreatureImage();
-        creatureImage.setImage("/select_cyan.png");
+        creatureImage.setImage("/select_cyan.png","/cyan_left.png","/cyan_right.png","/cyan_right.png");
     }
     public static CyanBrother getInstance() {
         if(obj == null) {

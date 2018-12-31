@@ -12,7 +12,7 @@ public class OrangeBrother extends  CalabashBrother {
         strength = 300;
         tempHealth = maxHealth;
         creatureImage = new CreatureImage();
-        creatureImage.setImage("/select_orange.png");
+        creatureImage.setImage("/select_orange.png","/orange_left.png","/orange_right.png","/orange_right.png");
     }
     public static OrangeBrother getInstance() {
         if(obj == null) {
