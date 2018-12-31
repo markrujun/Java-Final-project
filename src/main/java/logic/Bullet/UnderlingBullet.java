@@ -9,5 +9,6 @@ public class UnderlingBullet extends Bullet {
         setDirection(directionRight);
         height = bulletImage.currentImage.getImage().getHeight();
         width = bulletImage.currentImage.getImage().getWidth();
+
     }
 }

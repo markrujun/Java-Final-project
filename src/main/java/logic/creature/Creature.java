@@ -2,6 +2,7 @@ package logic.creature;
 
 
 import logic.Bullet.Bullet;
+import util.LogWriter;
 
 import java.util.ArrayList;
 
@@ -42,8 +43,6 @@ public abstract class Creature implements Runnable{
             y = 0;
         if (y > 350)
             y = 340;
-        System.out.println(x);
-        System.out.println(y);
         layoutX = x;
         layoutY = y;
         creatureImage.setX(x);
@@ -52,13 +51,11 @@ public abstract class Creature implements Runnable{
     public void moveLeft(){
         directionRight = false;
         creatureImage.setCurrentImage(creatureImage.leftImage);
-        System.out.println("moveUp");
         move(layoutX - 10, layoutY);
     }
     public void moveRight() {
         directionRight = true;
         creatureImage.setCurrentImage(creatureImage.rightImage);
-        System.out.println("moveDown");
         move(layoutX + 10, layoutY);
     }
     public void moveDown() {
@@ -70,10 +67,14 @@ public abstract class Creature implements Runnable{
     public abstract void attack();
     public void isAttack(int damage) {
         System.out.println(tellName() + "is attacked");
+        LogWriter.write(tellName() + "遭受了攻击，" + "伤害:" + damage);
+
         if (tempHealth >= damage) {
             tempHealth -= damage;
-        } else
+        } else {
             tempHealth = 0;
+            LogWriter.write(tellName() + "被打死了");
+        }
         creatureImage.changeBlood(maxHealth, tempHealth);
     };
     public boolean isDead() {

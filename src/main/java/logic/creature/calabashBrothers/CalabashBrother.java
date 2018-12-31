@@ -4,6 +4,7 @@ import logic.Bullet.Bullet;
 import logic.Bullet.CalabashBrotherBullet;
 import logic.battle.BattleClient;
 import logic.creature.Creature;
+import util.LogWriter;
 
 
 public abstract class CalabashBrother extends Creature  {
@@ -21,6 +22,8 @@ public abstract class CalabashBrother extends Creature  {
             bullets.add(tempBullet);
         }
         tempBullet.start();
+        LogWriter.write(tellName() + "发出了子弹，" + "位置：x:" + layoutX + "  ,y: " + layoutY);
+
     }
 }
 

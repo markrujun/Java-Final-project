@@ -5,6 +5,7 @@ import logic.Bullet.Bullet;
 import logic.Bullet.UnderlingBullet;
 import logic.battle.BattleClient;
 import logic.creature.CreatureImage;
+import util.LogWriter;
 
 public class Underling extends EvilCreature {
       public Underling(){
@@ -33,5 +34,7 @@ public class Underling extends EvilCreature {
             EvilLeague.getInstance().evilBullets.add(tempBullet);
         }
         tempBullet.start();
+        LogWriter.write(tellName() + "发出了子弹，" + "位置：x:" + layoutX + "  ,y: " + layoutY);
+
     }
 }

@@ -83,6 +83,14 @@ public class EvilLeague extends League implements Runnable {
                 e.printStackTrace();
             }
         }
+        for (EvilCreature i: evilCreatures
+             ) {
+            i.tempHealth = 0;
+        }
+        for (Bullet i: evilBullets
+             ) {
+            i.isFlying = false;
+        }
         System.out.println("evil lose");
     }
 

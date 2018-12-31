@@ -9,6 +9,7 @@ import javafx.scene.layout.Pane;
 import logic.creature.evilCreatures.EvilCreature;
 import logic.creature.evilCreatures.EvilLeague;
 import logic.creature.calabashBrothers.*;
+import util.LogWriter;
 
 import java.util.Arrays;
 import java.util.Stack;
@@ -24,24 +25,32 @@ public class BattleClient {
         switch (CalabashIndex){
             case 0:
                 player = RedBrother.getInstance();
+                LogWriter.write("大娃准备出战");
                 break;
             case 1:
                 player = new OrangeBrother();
+                LogWriter.write("二娃准备出战");
+
                 break;
             case 2:
                 player = new YellowBrother();
+                LogWriter.write("三娃准备出战");
                 break;
             case 3:
                 player = new GreenBrother();
+                LogWriter.write("四娃准备出战");
                 break;
             case 4:
                 player = new CyanBrother();
+                LogWriter.write("五娃准备出战");
                 break;
             case 5:
                 player = new BlueBrother();
+                LogWriter.write("六娃准备出战");
                 break;
             case 6:
                 player = new PurpleBrother();
+                LogWriter.write("七娃准备出战");
                 break;
         }
     }
@@ -61,7 +70,6 @@ public class BattleClient {
     }
 
     public void init() {
-        System.out.println("begin init");
         playerInit();
         evilLeagueInit();
         threadBegin();
@@ -78,7 +86,6 @@ public class BattleClient {
                         int finalI = i;
                         synchronized (battlePane) {
                             Platform.runLater(() -> {
-                                System.out.println("add bullet Image");
                                 battlePane.getChildren().add(player.bullets.get(finalI).bulletImage.currentImage);
                             });
                         }
@@ -87,16 +94,10 @@ public class BattleClient {
                 }
                 // 怪物子弹
                 if (evilBulletSize != evilLeague.evilBullets.size()) {
-                    System.out.println(evilBulletSize);
-                    System.out.println(evilLeague.evilBullets.size());
                     for(int i = evilBulletSize; i<evilLeague.evilBullets.size();i++) {
                         int finalI = i;
-                        System.out.println(finalI);
                         synchronized (battlePane) {
                             Platform.runLater(() -> {
-                                System.out.println("add bullet Image");
-                                System.out.println(evilLeague.evilBullets.get(finalI).bulletImage.currentImage);
-                                System.out.println(Arrays.toString(battlePane.getChildren().toArray()));
                                 battlePane.getChildren().add(evilLeague.evilBullets.get(finalI).bulletImage.currentImage);
                             });
                         }
@@ -104,6 +105,7 @@ public class BattleClient {
                     }
                 }
                 if (player.isDead()) {
+                    LogWriter.treadEnd = true;
                     evilLeague.treadEnd = true;
                     Platform.runLater(() -> {
                         Image end_image = new Image("lose.png");
@@ -114,6 +116,9 @@ public class BattleClient {
                     });
                 }
                 if (evilLeague.evilLeagueLose) {
+                    LogWriter.treadEnd = true;
+                    player.tempHealth = 0;
+
                     Platform.runLater(() -> {
                         Image end_image = new Image("win.png");
                         ImageView end = new ImageView(end_image);
@@ -142,7 +147,6 @@ public class BattleClient {
         });
     }
     private void playerInit() {
-        System.out.println("play init");
         player.creatureImage.setCurrentImage(player.creatureImage.fightImage);
         Platform.runLater(() -> {
                 battlePane.getChildren().add(player.creatureImage.redBloodImage);
@@ -153,7 +157,6 @@ public class BattleClient {
                 battlePane.setOnKeyPressed(event -> {
                     if (!player.isDead()){
                         KeyCode code = event.getCode();
-                        System.out.println(keyCodes.size());
                         if (keyCodes.indexOf(code) < 0) {
                             switch (code) {
                                 case RIGHT:
@@ -190,7 +193,6 @@ public class BattleClient {
                             keyCodes.push(code);
                         }
                         try {
-                            System.out.println(Arrays.toString(keyCodes.toArray()));
                             Thread.sleep(20);
                         } catch (InterruptedException e) {
                             e.printStackTrace();
@@ -213,7 +215,6 @@ public class BattleClient {
                 battlePane.setOnKeyReleased(event -> {
                     if (!player.isDead()) {
                         {
-                            System.out.println(event);
                             KeyCode code = event.getCode();
                             keyCodes.remove(code);
                             switch (code) {
@@ -229,7 +230,7 @@ public class BattleClient {
         player.start();
     }
     private void evilLeagueInit() {
-        System.out.println("evilLeagueInit");
+        LogWriter.write("邪恶阵容初始化");
         evilLeague = EvilLeague.getInstance();
         evilLeague.start();
 

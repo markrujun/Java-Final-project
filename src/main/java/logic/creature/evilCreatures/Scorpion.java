@@ -4,6 +4,7 @@ import logic.Bullet.Bullet;
 import logic.Bullet.ScorpionBullet;
 import logic.battle.BattleClient;
 import logic.creature.CreatureImage;
+import util.LogWriter;
 
 public class Scorpion extends EvilCreature {
     public Scorpion(){
@@ -17,8 +18,6 @@ public class Scorpion extends EvilCreature {
         tempHealth = maxHealth;
         creatureImage = new CreatureImage();
         creatureImage.setImage("Scorpion_left.png", "Scorpion_left.png", "Scorpion_right.png", "Scorpion_left.png");
-
-
     }
 
     @Override
@@ -34,5 +33,7 @@ public class Scorpion extends EvilCreature {
             EvilLeague.getInstance().evilBullets.add(tempBullet);
         }
         tempBullet.start();
+        LogWriter.write(tellName() + "发出了子弹，" + "位置：x:" + layoutX + "  ,y: " + layoutY);
+
     }
 }

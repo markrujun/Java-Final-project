@@ -11,6 +11,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import logic.battle.BattleClient;
 import logic.creature.calabashBrothers.*;
+import util.LogWriter;
 
 import java.util.ArrayList;
 
@@ -26,26 +27,8 @@ public class Controller {
 
     @FXML private void initialize(){
         createSelect();
-    }
-
-    public void selectKeyPress(Event val) {
-        System.out.println(val);
-    }
-    public void selectMouseEnter(Event val) {
-        System.out.println(val);
-
-    }
-    public void selectMouseClick(Event val) {
-        System.out.println(val);
-
-    }
-    public void selectMousePress(Event val) {
-        System.out.println(val);
-
-    }
-    public void selectMouseExit(Event val) {
-        System.out.println(val);
-
+        LogWriter.getInstance().start();
+        LogWriter.write("初始化选人界面");
     }
     public void createSelect() {
         final ArrayList<Pane> selectPaneList = new ArrayList<>();
@@ -112,7 +95,6 @@ public class Controller {
             tempPane.setOnMouseClicked(event -> {
                 endSelect();
                 final MouseEvent event1 = event;
-                System.out.println(battlePane);
                 Task task = new Task() {
                     @Override
                     protected Object call() {

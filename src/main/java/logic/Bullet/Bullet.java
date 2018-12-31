@@ -15,7 +15,7 @@ public class Bullet implements Runnable {
     private double y;
     double height;
     double width;
-    private boolean isFlying = true;
+    public boolean isFlying = true;
     public BulletImage bulletImage;
     private Thread t;
     public ArrayList<Creature> targetList = new ArrayList<>();
