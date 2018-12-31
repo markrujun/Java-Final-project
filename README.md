@@ -60,11 +60,11 @@ java
 
 ### 1. Creature UML图
 
-![1546232913107](C:\Users\marujun\AppData\Local\Temp\1546232913107.png)
+![1546232913107](https://github.com/markrujun/Java-Final-project/blob/master/screenShot/creatre_UML.png?raw=true)
 
 ### 2. 子弹UML图
 
-![1546233021534](C:\Users\marujun\AppData\Local\Temp\1546233021534.png)
+![1546233021534](https://github.com/markrujun/Java-Final-project/blob/master/screenShot/bullet_UML.png?raw=true)
 
 ### 3. 游戏模型
 
