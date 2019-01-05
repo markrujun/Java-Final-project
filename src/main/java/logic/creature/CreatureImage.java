@@ -54,7 +54,6 @@ public class CreatureImage {
         upImage.setImage(new Image(up));
         downImage.setImage(new Image(down));
         fightImage.setImage(new Image(fight));
-        System.out.println(leftImage.getFitWidth() +"picWIDTH");
         greenBloodImage.setPrefWidth(leftImage.getImage().getWidth());
         redBloodImage.setPrefWidth(leftImage.getImage().getWidth());
     }
@@ -78,11 +77,7 @@ public class CreatureImage {
     }
 
     public void changeBlood(int maxHealth, int tempHealth) {
-        System.out.println(greenBloodImage.getWidth());
-        System.out.println(maxHealth + "," + tempHealth );
-        System.out.println(tempHealth * 1.0/maxHealth * currentImage.getImage().getWidth());
         greenBloodImage.setPrefWidth(tempHealth * 1.0/maxHealth * currentImage.getImage().getWidth());
-        System.out.println(tempHealth/maxHealth * currentImage.getImage().getWidth());
     }
 
     public void hideAll() {

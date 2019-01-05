@@ -114,6 +114,7 @@ public class BattleClient {
                         end.setLayoutY((APP_Config.SCENE_HEIGHT/2.0) - end_image.getHeight()/2);
                         battlePane.getChildren().add(end);
                     });
+                    break;
                 }
                 if (evilLeague.evilLeagueLose) {
                     LogWriter.treadEnd = true;
@@ -126,6 +127,7 @@ public class BattleClient {
                         end.setLayoutY((APP_Config.SCENE_HEIGHT/2.0) - end_image.getHeight()/2);
                         battlePane.getChildren().add(end);
                     });
+                    break;
                 }
                 try {
                     Thread.sleep(20);
@@ -233,6 +235,6 @@ public class BattleClient {
         LogWriter.write("邪恶阵容初始化");
         evilLeague = EvilLeague.getInstance();
         evilLeague.start();
-
     }
+
 }

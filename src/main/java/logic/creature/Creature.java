@@ -66,7 +66,6 @@ public abstract class Creature implements Runnable{
     }
     public abstract void attack();
     public void isAttack(int damage) {
-        System.out.println(tellName() + "is attacked");
         LogWriter.write(tellName() + "遭受了攻击，" + "伤害:" + damage);
 
         if (tempHealth >= damage) {
@@ -100,7 +99,7 @@ public abstract class Creature implements Runnable{
 
     public void start() {
         if (t == null) {
-            t = new Thread(this);
+            t = new Thread(this ,"creature");
         }
         t.start();
     }

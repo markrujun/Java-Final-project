@@ -17,7 +17,7 @@ public class Scorpion extends EvilCreature {
         strength = 700;
         tempHealth = maxHealth;
         creatureImage = new CreatureImage();
-        creatureImage.setImage("Scorpion_left.png", "Scorpion_left.png", "Scorpion_right.png", "Scorpion_left.png");
+        creatureImage.setImage("scorpion_left.png", "scorpion_left.png", "scorpion_right.png", "scorpion_left.png");
     }
 
     @Override

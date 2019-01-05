@@ -41,7 +41,6 @@ public class Bullet implements Runnable {
             double y1 = target.layoutY;
             double w1 = target.creatureImage.currentImage.getImage().getWidth();
             double h1 = target.creatureImage.currentImage.getImage().getHeight();
-            System.out.println(x1 + "," + y1 + "," + w1 +  "," + h1);
             if ((x > x1 - width) &&
                     (x < x1+w1) &&
                     (y > y1 - height) &&
@@ -66,7 +65,6 @@ public class Bullet implements Runnable {
     public void run() {
         int tempRange = 0;
         while (tempRange < range && isFlying) {
-            System.out.println("run");
             if (directionRight){
                 move(x + 25, y);
                 judge(x+25, y);
@@ -88,7 +86,7 @@ public class Bullet implements Runnable {
 
     public void start() {
         if (t == null) {
-            t = new Thread(this);
+            t = new Thread(this, "bullet");
         }
         t.start();
     }

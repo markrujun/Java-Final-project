@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Final Project:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Final_Project_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Final Project.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="Final Project" />
+      </element>
+    </root>
+  </artifact>
+</component>

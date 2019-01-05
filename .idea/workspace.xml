@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Final Project:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="添加测试用例">
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/LogWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Final_Project_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LogWritterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018-12-31_18-11-43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/Bullet/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Bullet/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/Bullet/ScorpionBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Bullet/ScorpionBullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/Bullet/UnderlingBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Bullet/UnderlingBullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/battle/BattleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/battle/BattleClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/creature/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/creature/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CalabashBrother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CalabashBrother.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/EvilLeague.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/EvilLeague.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/creature/CreatureImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/creature/CreatureImage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Scorpion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Scorpion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Underling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Underling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/FileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/LogWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/LogWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BattleClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BattleClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/Bullet/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/Bullet/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/Bullet/ScorpionBullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/Bullet/ScorpionBullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/Bullet/UnderlingBullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/Bullet/UnderlingBullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/battle/BattleClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/battle/BattleClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/battle/BattleClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/battle/BattleClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/creature/Creature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/creature/Creature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/creature/CreatureImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/creature/CreatureImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/creature/evilCreatures/Scorpion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/creature/evilCreatures/Scorpion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/LogWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/LogWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BattleClientTest.class" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,6 +44,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Final_Project$.ic" NAME=" Coverage Results" MODIFIED="1546664879755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Final_Project$Main.ic" NAME="Main Coverage Results" MODIFIED="1546180278704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
@@ -72,20 +91,25 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="603367370">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -103,10 +127,10 @@
           <entry key="css" value="1" />
           <entry key="fxml" value="5" />
           <entry key="iml" value="1" />
-          <entry key="java" value="379" />
+          <entry key="java" value="445" />
           <entry key="png" value="2" />
           <entry key="txt" value="2" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -115,10 +139,10 @@
           <entry key="CSS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="379" />
+          <entry key="JAVA" value="445" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="UML" value="13" />
-          <entry key="XML" value="7" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -127,29 +151,29 @@
           <entry key="dummy" value="6" />
           <entry key="ft" value="100" />
           <entry key="fxml" value="94" />
-          <entry key="java" value="17067" />
+          <entry key="java" value="17217" />
           <entry key="txt" value="17" />
-          <entry key="xml" value="12" />
+          <entry key="xml" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="189" />
-          <entry key="JAVA" value="17067" />
+          <entry key="JAVA" value="17217" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="VTL" value="100" />
-          <entry key="XML" value="106" />
+          <entry key="XML" value="159" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/battle/BattleClient.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CalabashBrother.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="117" column="48" lean-forward="true" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
+            <state relative-caret-position="462">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,14 +181,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/LogWriter.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LogWritterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="232">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BattleClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="14" column="30" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CalabashBrotherEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -172,8 +211,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
+            <state relative-caret-position="2144">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,10 +221,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CalabashBrother.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/logic/battle/BattleClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="24" selection-start-line="24" selection-end-line="25" />
+            <state relative-caret-position="509">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,62 +233,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/UnderlingBullet.java">
+        <entry file="jar://F:/programming language/java/jdk8/src.zip!/java/lang/Object.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="82">
+              <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Underling.java">
+        <entry file="jar://F:/programming language/java/jdk8/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="747" selection-start-line="747" selection-end-line="747" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Scorpion.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="19" column="116" selection-start-line="19" selection-start-column="116" selection-end-line="19" selection-end-column="116" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="87">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/Bullet.java">
+        <entry file="jar://F:/programming language/java/jdk8/javafx-src.zip!/javafx/concurrent/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/Creature.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-454">
-              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2206#2207#0" expanded="true" />
-                <element signature="e#2244#2245#0" expanded="true" />
-                <element signature="e#2523#2524#0" expanded="true" />
-                <element signature="e#2562#2563#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-722">
+              <caret line="1435" selection-start-line="1435" selection-end-line="1435" />
             </state>
           </provider>
         </entry>
@@ -271,6 +285,9 @@
       <find>player</find>
       <find>getInstance</find>
       <find>Sys</find>
+      <find>System.out.pringln</find>
+      <find>System.out.p</find>
+      <find>System.out</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -287,8 +304,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/logic/creature/CalabashBrothers/BlueBrother.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/evilLeague.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/leader.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/Serpent.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/Underling.java" />
@@ -300,7 +315,6 @@
         <option value="$PROJECT_DIR$/src/main/java/APP_Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/battle/BattleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/battle/Battlefield.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Config/APP_Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/OrangeBrother.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/YellowBrother.java" />
@@ -309,13 +323,11 @@
         <option value="$PROJECT_DIR$/src/main/java/logic/Bullet/BulletImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/EvilCreatre.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/League.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/RedBrother.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/PurpleBrother.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Serpent.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/Bullet/calabashBrotherBullet.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/Bullet/CalabashBrotherBullet.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/EvilCreature.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/creature/CreatureImage.java" />
         <option value="$PROJECT_DIR$/src/test/java/annotation/Author.java" />
         <option value="$PROJECT_DIR$/src/main/java/Annotation/Author.java" />
         <option value="$PROJECT_DIR$/src/main/java/Annotation/Description.java" />
@@ -325,19 +337,24 @@
         <option value="$PROJECT_DIR$/src/test/java/logic/Bullet/BulletTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/Bullet/RunWith.java" />
         <option value="$PROJECT_DIR$/src/test/java/logic/Bullet/BulletImageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BattleClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/BlueBrother.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/FileWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/Bullet/Bullet.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/EvilLeague.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CalabashBrother.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/Bullet/UnderlingBullet.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Underling.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Scorpion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/creature/Creature.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/battle/BattleClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/Bullet/UnderlingBullet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/Bullet/ScorpionBullet.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/LogWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/creature/CreatureImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/RedBrother.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/creature/Creature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/Bullet/Bullet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BattleClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/battle/BattleClient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LogWritterTest.java" />
       </list>
     </option>
   </component>
@@ -392,6 +409,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -477,16 +495,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="creature" type="462c0819:PsiDirectoryNode" />
-              <item name="evilCreatures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -495,11 +503,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,17 +537,18 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546236923942" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546668288200" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/Annotation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -565,7 +591,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.FinalProject-1.0-SNAPSHOT.jar">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -635,6 +661,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FinalProject-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/FinalProject-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -655,8 +685,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.FinalProject-1.0-SNAPSHOT.jar" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.FinalProject-1.0-SNAPSHOT.jar" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -685,17 +720,20 @@
       <workItem from="1546149778069" duration="22233000" />
       <workItem from="1546224868827" duration="6609000" />
       <workItem from="1546246211138" duration="5120000" />
+      <workItem from="1546601438335" duration="2282000" />
+      <workItem from="1546603826998" duration="2748000" />
+      <workItem from="1546662209810" duration="5742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182333000" />
+    <option name="totallyTimeSpent" value="193105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.35010707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.36456102" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32976446" />
       <window_info id="Designer" order="3" />
@@ -705,7 +743,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32875144" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32760596" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38717067" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.38717067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -714,7 +752,7 @@
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.3298969" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32760596" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="15" />
@@ -731,6 +769,43 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32976446" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.36456102" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" weight="0.32976446" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32875144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32760596" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38717067" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.3298969" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32760596" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="15" />
+      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.3298969" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32976446" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -744,420 +819,16 @@
     <MESSAGE value="添加测试用例" />
     <option name="LAST_COMMIT_MESSAGE" value="添加测试用例" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/logic/creature/CreatureImage.java</url>
-          <line>80</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/League.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/programming language/java/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="908" selection-start-line="908" selection-end-line="908" />
-          <folding>
-            <element signature="e#15586#15587#0" expanded="true" />
-            <element signature="e#15631#15632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/YellowBrother.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/programming language/java/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="707" selection-start-line="707" selection-end-line="707" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/logic.creature">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>logic.creature</OriginalElement>
-          <nodes>
-            <node x="231.25" y="85.0">logic.creature.calabashBrothers</node>
-            <node x="0.0" y="0.0">logic.creature.League</node>
-            <node x="2.25" y="85.0">logic.creature.evilCreatures</node>
-            <node x="0.0" y="165.0">logic.creature.CreatureImage</node>
-            <node x="254.0" y="0.0">logic.creature.Creature</node>
-            <node x="210.0" y="165.0">logic.creature.TellName</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="logic.creature.calabashBrothers" target="logic.creature.Creature">
-              <point x="0.0" y="-17.5" />
-              <point x="31.25" y="17.5" />
-            </edge>
-            <edge source="logic.creature.evilCreatures" target="logic.creature.Creature">
-              <point x="52.25" y="-17.5" />
-              <point x="159.0" y="60.0" />
-              <point x="285.25" y="60.0" />
-              <point x="-31.25" y="17.5" />
-            </edge>
-            <edge source="logic.creature.evilCreatures" target="logic.creature.League">
-              <point x="-52.25" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-258.0" y="-67.0" />
-          <SelectedNodes>
-            <node>logic.creature.Creature</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram/F:/coding/java/assignment/Final Project/src/main/java/logic/creature/calabashBrothers;F:/coding/java/assignment/Final Project/src/main/java/logic/creature/evilCreatures;">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers;F:/coding/java/assignment/Final Project/src/main/java/logic/creature/evilCreatures;</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram/F:/coding/java/assignment/Final Project/src/main/java/logic">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/main/java/logic</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/logic.creature.calabashBrothers.CalabashBrother">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>logic.creature.calabashBrothers.CalabashBrother</OriginalElement>
-          <nodes>
-            <node x="206.25" y="0.0">java.lang.FunctionalInterface</node>
-            <node x="0.0" y="170.0">logic.creature.evilCreatures.EvilCreature</node>
-            <node x="177.0" y="170.0">logic.creature.calabashBrothers.CalabashBrother</node>
-            <node x="378.0" y="170.0">logic.creature.evilCreatures.EvilLeague</node>
-            <node x="197.0" y="255.0">logic.creature.calabashBrothers.RedBrother</node>
-            <node x="429.25" y="85.0">logic.creature.League</node>
-            <node x="0.0" y="335.0">logic.creature.CreatureImage</node>
-            <node x="7.0" y="74.0">logic.creature.Creature</node>
-            <node x="12.0" y="255.0">logic.creature.evilCreatures.Underling</node>
-            <node x="250.25" y="85.0">java.lang.Runnable</node>
-            <node x="210.0" y="335.0">logic.creature.TellName</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="logic.creature.evilCreatures.EvilLeague" target="java.lang.Runnable">
-              <point x="-35.25" y="-17.5" />
-              <point x="413.25" y="150.0" />
-              <point x="354.41666666666663" y="150.0" />
-              <point x="41.66666666666663" y="17.5" />
-            </edge>
-            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="logic.creature.evilCreatures.EvilCreature" target="java.lang.Runnable">
-              <point x="39.25" y="-17.5" />
-              <point x="117.75" y="150.0" />
-              <point x="271.08333333333337" y="150.0" />
-              <point x="-41.66666666666666" y="17.5" />
-            </edge>
-            <edge source="logic.creature.calabashBrothers.CalabashBrother" target="java.lang.Runnable">
-              <point x="45.25" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="logic.creature.evilCreatures.Underling" target="logic.creature.evilCreatures.EvilCreature">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="logic.creature.calabashBrothers.RedBrother" target="logic.creature.calabashBrothers.CalabashBrother">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="logic.creature.evilCreatures.EvilCreature" target="logic.creature.Creature">
-              <point x="-39.25" y="-17.5" />
-              <point x="-31.25" y="17.5" />
-            </edge>
-            <edge source="logic.creature.evilCreatures.EvilLeague" target="logic.creature.League">
-              <point x="35.25" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="logic.creature.calabashBrothers.CalabashBrother" target="logic.creature.Creature">
-              <point x="-45.25" y="-17.5" />
-              <point x="222.25" y="140.0" />
-              <point x="101.75" y="140.0" />
-              <point x="31.25" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-109.0" y="18.0" />
-          <SelectedNodes>
-            <node>logic.creature.Creature</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/logic.creature.Creature">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>logic.creature.Creature</OriginalElement>
-          <nodes>
-            <node x="" y="">java.lang.FunctionalInterface</node>
-            <node x="" y="">logic.creature.calabashBrothers.CalabashBrother</node>
-            <node x="" y="">logic.creature.calabashBrothers.RedBrother</node>
-            <node x="" y="">logic.creature.calabashBrothers.PurpleBrother</node>
-            <node x="" y="">logic.creature.calabashBrothers.BlueBrother</node>
-            <node x="" y="">logic.creature.calabashBrothers.OrangeBrother</node>
-            <node x="" y="">logic.creature.Creature</node>
-            <node x="" y="">logic.creature.calabashBrothers.YellowBrother</node>
-            <node x="" y="">java.lang.Runnable</node>
-            <node x="" y="">logic.creature.calabashBrothers.CyanBrother</node>
-            <node x="" y="">logic.creature.calabashBrothers.GreenBrother</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9786561264822135" x="623.0" y="150.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/PurpleBrother.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/logic.creature.calabashBrothers.BlueBrother">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>logic.creature.calabashBrothers.BlueBrother</OriginalElement>
-          <nodes>
-            <node x="114.26984126984132" y="255.0">logic.creature.evilCreatures.EvilCreature</node>
-            <node x="950.0" y="255.0">logic.creature.calabashBrothers.CalabashBrother</node>
-            <node x="435.00000000000006" y="350.0">logic.creature.calabashBrothers.RedBrother</node>
-            <node x="1135.0" y="350.0">logic.creature.calabashBrothers.PurpleBrother</node>
-            <node x="1320.0" y="350.0">logic.creature.calabashBrothers.BlueBrother</node>
-            <node x="781.0" y="350.0">logic.creature.calabashBrothers.OrangeBrother</node>
-            <node x="563.5" y="170.0">logic.creature.Creature</node>
-            <node x="0.0" y="350.0">logic.creature.evilCreatures.Underling</node>
-            <node x="563.5" y="85.0">java.lang.Runnable</node>
-            <node x="966.0" y="350.0">logic.creature.calabashBrothers.CyanBrother</node>
-            <node x="0.0" y="430.0">logic.creature.TellName</node>
-            <node x="519.5" y="0.0">java.lang.FunctionalInterface</node>
-            <node x="153.0" y="350.0">logic.creature.evilCreatures.Serpent</node>
-            <node x="290.00000000000006" y="350.0">logic.creature.evilCreatures.Scorpion</node>
-            <node x="596.0" y="350.0">logic.creature.calabashBrothers.YellowBrother</node>
-            <node x="1489.0" y="350.0">logic.creature.calabashBrothers.GreenBrother</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="logic.creature.calabashBrothers.OrangeBrother" target="logic.creature.calabashBrothers.CalabashBrother">
-              <point x="0.0" y="-17.5" />
-              <point x="863.5" y="330.0" />
-              <point x="1014.6428571428571" y="330.0" />
-              <point x="-25.85714285714289" y="17.5" />
-            </edge>
-            <edge source="logic.creature.Creature" target="java.lang.Runnable">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="logic.creature.evilCreatures.Scorpion" target="logic.creature.evilCreatures.EvilCreature">
-              <point x="0.0" y="-17.5" />
-              <point x="352.50000000000006" y="330.0" />
-              <point x="245.1031746031747" y="330.0" />
-              <point x="52.33333333333334" y="17.5" />
-            </edge>
-            <edge source="logic.creature.calabashBrothers.PurpleBrother" target="logic.creature.calabashBrothers.CalabashBrother">
-              <point x="0.0" y="-17.5" />
-              <point x="1217.5" y="330.0" />
-              <point x="1066.357142857143" y="330.0" />
-              <point x="25.85714285714289" y="17.5" />
-            </edge>
-            <edge source="logic.creature.evilCreatures.EvilCreature" target="logic.creature.Creature">
-              <point x="0.0" y="-17.5" />
-              <point x="192.76984126984132" y="230.0" />
-              <point x="594.75" y="230.0" />
-              <point x="-31.25" y="17.5" />
-            </edge>
-            <edge source="logic.creature.calabashBrothers.CalabashBrother" target="logic.creature.Creature">
-              <point x="0.0" y="-17.5" />
-              <point x="1040.5" y="230.0" />
-              <point x="657.25" y="230.0" />
-              <point x="31.25" y="17.5" />
-            </edge>
-            <edge source="logic.creature.calabashBrothers.YellowBrother" target="logic.creature.calabashBrothers.CalabashBrother">
-              <point x="0.0" y="-17.5" />
-              <point x="678.5" y="320.0" />
-              <point x="988.7857142857142" y="320.0" />
-              <point x="-51.71428571428578" y="17.5" />
-            </edge>
-            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="logic.creature.calabashBrothers.CyanBrother" target="logic.creature.calabashBrothers.CalabashBrother">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="logic.creature.calabashBrothers.GreenBrother" target="logic.creature.calabashBrothers.CalabashBrother">
-              <point x="0.0" y="-17.5" />
-              <point x="1567.5" y="310.0" />
-              <point x="1118.0714285714284" y="310.0" />
-              <point x="77.57142857142844" y="17.5" />
-            </edge>
-            <edge source="logic.creature.calabashBrothers.RedBrother" target="logic.creature.calabashBrothers.CalabashBrother">
-              <point x="0.0" y="-17.5" />
-              <point x="505.50000000000006" y="310.0" />
-              <point x="962.9285714285716" y="310.0" />
-              <point x="-77.57142857142856" y="17.5" />
-            </edge>
-            <edge source="logic.creature.calabashBrothers.BlueBrother" target="logic.creature.calabashBrothers.CalabashBrother">
-              <point x="0.0" y="-17.5" />
-              <point x="1394.5" y="320.0" />
-              <point x="1092.2142857142858" y="320.0" />
-              <point x="51.71428571428578" y="17.5" />
-            </edge>
-            <edge source="logic.creature.evilCreatures.Underling" target="logic.creature.evilCreatures.EvilCreature">
-              <point x="0.0" y="-17.5" />
-              <point x="66.5" y="330.0" />
-              <point x="140.43650793650795" y="330.0" />
-              <point x="-52.33333333333334" y="17.5" />
-            </edge>
-            <edge source="logic.creature.evilCreatures.Serpent" target="logic.creature.evilCreatures.EvilCreature">
-              <point x="0.0" y="-17.5" />
-              <point x="211.5" y="330.0" />
-              <point x="192.76984126984132" y="330.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.1" x="56.0" y="189.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CalabashBrotherEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Serpent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Annotation/Description.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Annotation/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/RunWith.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/logic/Bullet/BulletTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/logic/Bullet/BulletImageTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/battle/Formation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/battle/BattleTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/BattleClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/battle/Battlefield.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/BulletImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/ScorpionBullet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/position/Position.java" />
     <entry file="uml://JavaScript-modules-diagram/F:/coding/java/assignment/Final Project/src/main/java/util">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -1338,13 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/RedBrother.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="98" selection-start-line="11" selection-start-column="20" selection-end-line="14" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Config/APP_Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -1352,47 +1016,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/BlueBrother.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/CreatureImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/programming language/java/javafx-src.zip!/javafx/scene/image/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="1117" selection-start-line="1117" selection-end-line="1117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/EvilCreature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CyanBrother.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://F:/programming language/java/javafx-src.zip!/javafx/scene/image/Image.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/GreenBrother.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
@@ -1400,51 +1024,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/OrangeBrother.java">
+    <entry file="file://$PROJECT_DIR$/2018-12-31_18-10-35.txt" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="330">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/EvilLeague.java">
+    <entry file="jar://F:/programming language/java/jdk8/javafx-src.zip!/javafx/beans/binding/ObjectExpression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3161">
-          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+        <state relative-caret-position="169">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programming language/java/jdk8/javafx-src.zip!/javafx/beans/property/ReadOnlyObjectProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programming language/java/jdk8/javafx-src.zip!/javafx/beans/property/ObjectProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programming language/java/jdk8/javafx-src.zip!/javafx/beans/property/ObjectPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programming language/java/jdk8/javafx-src.zip!/javafx/beans/property/SimpleObjectProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/CalabashBrotherBullet.java">
+    <entry file="jar://F:/programming language/java/jdk8/javafx-src.zip!/javafx/beans/property/ReadOnlyObjectWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="198">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CalabashBrother.java">
+    <entry file="jar://F:/programming language/java/jdk8/javafx-src.zip!/javafx/scene/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="24" selection-start-line="24" selection-end-line="25" />
+        <state relative-caret-position="335">
+          <caret line="2353" selection-start-line="2353" selection-end-line="2353" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#35131#35138#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/UnderlingBullet.java">
+    <entry file="jar://F:/programming language/java/jdk8/javafx-src.zip!/javafx/scene/image/ImageView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="248">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Underling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="335">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/EvilCreature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1453,45 +1116,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/Scorpion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="19" column="116" selection-start-line="19" selection-start-column="116" selection-end-line="19" selection-end-column="116" />
+        <state relative-caret-position="161">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/Bullet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/evilCreatures/EvilLeague.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/Creature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-454">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2206#2207#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#2523#2524#0" expanded="true" />
-            <element signature="e#2562#2563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018-12-31_18-10-35.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="770">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1500,8 +1136,163 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/LogWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state relative-caret-position="1402">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/League.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/TellName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/CreatureImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2076">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/BulletImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/CalabashBrotherBullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/ScorpionBullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="94" selection-start-line="4" selection-start-column="94" selection-end-line="4" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/UnderlingBullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/BlueBrother.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CyanBrother.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/OrangeBrother.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/RedBrother.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/YellowBrother.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="101" column="45" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Bullet/Bullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CalabashBrotherEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programming language/java/jdk8/javafx-src.zip!/javafx/concurrent/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-722">
+          <caret line="1435" selection-start-line="1435" selection-end-line="1435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programming language/java/jdk8/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programming language/java/jdk8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2144">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1510,11 +1301,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/battle/BattleClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="117" column="48" lean-forward="true" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
+        <state relative-caret-position="509">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/creature/calabashBrothers/CalabashBrother.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BattleClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="30" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LogWritterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1524,10 +1339,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Final Project:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1558,7 +1375,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1582,6 +1399,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

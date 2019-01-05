@@ -53,8 +53,8 @@ public  class LogWriter implements Runnable {
             if (tempSize < taskWrite.size()) {
                 for (int i=tempSize; i< taskWrite.size(); i++) {
                     try {
-                        System.out.println(taskWrite.get(i) + "\n");
                         out.write(taskWrite.get(i) + "\n");
+                        tempSize++;
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
